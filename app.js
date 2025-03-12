@@ -1,13 +1,14 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
-let nomesDosAmigos = [];
+let amigos = [];
+let listaAmigos = document.getElementById("listaAmigos");
 
 function adicionarAmigo(){
     nomeDoAmigo = document.querySelector('input').value;
     if (nomeDoAmigo == ""){
         alert("Por favor, insira um nome.");
     } else {
-        nomesDosAmigos .push(nomeDoAmigo);
-        console.log(nomesDosAmigos);
+        amigos .push(nomeDoAmigo);
+        console.log(amigos);
         campo = document.querySelector('input');
         campo.value = "";
         exibirListaDeAmigos();
@@ -15,15 +16,19 @@ function adicionarAmigo(){
 }
 
 function exibirListaDeAmigos(){
-    lista2 = document.getElementById("listaAmigos");
-    console.log(lista2);
-    lista2.innerHTML = "";
-    lista2.innerHTML = nomesDosAmigos ;
-
-    // for(let x = 0; x < nomesDosAmigos.length;){
-    //    lista2.innerHTML = nomesDosAmigos ;
-    //    x ++;
-    // }
+    listaAmigos.innerHTML = "";
+	for(let x = 0; x < amigos.length; x++){
+		let elemento = document.createElement('li');
+		elemento.appendChild(document.createTextNode(amigos[x]));
+		listaAmigos.appendChild(elemento);
+        }
 }
 
-//adicionarAmigo();
+function sortearAmigo(){
+	if(amigos.length > 0){
+		let numeroSorteado = (Math.floor	(Math.random() * (amigos.length - 1 + 1)));
+		let resultado = document.getElementById("resultado");
+		listaAmigos.innerHTML = "";
+		resultado.innerHTML = amigos[numeroSorteado];
+		}
+	}
