@@ -19,17 +19,16 @@ git clone <URL_DO_REPOSITORIO>
 
 2. **Abra o arquivo HTML no navegador.**
 3. **Utilize as funcionalidades:**
-   
-   ![Interface do projeto](challenge-amigo-secreto_pt/assets/images_readme/tela_1.png)
+   ![](assets/images_readme/tela_1.jpg)
    - Insira um nome no campo indicado e clique em "Adicionar Amigo".
      
-   ![Interface do projeto](assets/images_readme/tela_2.png)
+   ![](assets/images_readme/tela_2.jpg)
    - Observe que possui uma lista com os nomes, após inserir os nomes desejados, clique em "Sortear Amigo" para sortear um participante.
      
-   ![Interface do projeto](assets/images_readme/tela_3.png)
+   ![](assets/images_readme/tela_3.jpg)
    - Após sortear um paticipante, para reiniciar a lista e sortear um novo grupo de amigos, clique em "Nova Lista de Amigos".
      
-   ![Interface do projeto](assets/images_readme/tela_4.png)
+   ![](assets/images_readme/tela_4.jpg)
 
 ## 🔧 Melhorias futuras
 
