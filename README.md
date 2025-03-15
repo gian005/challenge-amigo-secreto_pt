@@ -19,9 +19,13 @@ git clone <URL_DO_REPOSITORIO>
 
 2. **Abra o arquivo HTML no navegador.**
 3. **Utilize as funcionalidades:**
+   ![Interface do projeto](assets/images_readme/tela inicial jogo amigo secreto.png)
    - Insira um nome no campo indicado e clique em "Adicionar Amigo".
-   - Após inserir os nomes desejados, clique em "Sortear Amigo" para sortear um participante.
-   - Para reiniciar a lista, clique em "Nova Lista de Amigos".
+   ![Interface do projeto](assets/images_readme/tela 2 jogo.png)
+   - Observe que possui uma lista com os nomes, após inserir os nomes desejados, clique em "Sortear Amigo" para sortear um participante.
+   ![Interface do projeto](assets/images_readme/tela 3 jogo.png)
+   - Após sortear um paticipante, para reiniciar a lista e sortear um novo grupo de amigos, clique em "Nova Lista de Amigos".
+   ![Interface do projeto](assets/images_readme/tela 4 jogo.png)
 
 ## 🔧 Melhorias futuras
 
